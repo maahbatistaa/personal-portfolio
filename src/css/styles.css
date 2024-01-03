@@ -119,7 +119,7 @@ body {
   animation-delay: 1s;
 }
 
-.home-sci a {
+.icons-sci a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@ body {
   margin: 30px 15px 30px 0;
 }
 
-.home-sci a:hover {
+.icons-sci a:hover {
   background: #ededed;
   color: #b546c4;
   box-shadow: 0 0 20px #070316;
@@ -376,8 +376,7 @@ section {
 
 .container1 {
   width: 600px;
-  height: 500px;
-  padding: 75px 90px;
+  padding: 20px 90px;
 }
 
 .heading1 {
@@ -389,6 +388,7 @@ section {
 }
 
 .bar {
+  margin-top: 20px;
   font-size: 23px;
 }
 
@@ -460,9 +460,9 @@ section {
 .progress-line.node span {
   width: 30%;
 }
-/* .progress-line.figma span {
+.progress-line.figma span {
   width: 60%;
-} */
+}
 
 .progress-line span::after {
   position: absolute;
@@ -494,9 +494,9 @@ section {
 .progress-line.node span::after {
   content: '30%';
 }
-/* .progress-line.figma span::after {
-  width: 60%;
-} */
+.progress-line.figma span::after {
+  content: '60%';
+}
 
 .progress-line span::before {
   content: '';
@@ -580,6 +580,12 @@ section {
 .path-4 {
   animation: animate-path4 1s 1s linear forwards;
 }
+.path-5 {
+  animation: animate-path5 1s 1s linear forwards;
+}
+.path-6 {
+  animation: animate-path6 1s 1s linear forwards;
+}
 
 @keyframes animate-path1 {
   100% {
@@ -602,6 +608,16 @@ section {
 @keyframes animate-path4 {
   100% {
     stroke-dashoffset: 75;
+  }
+}
+@keyframes animate-path5 {
+  100% {
+    stroke-dashoffset: 150;
+  }
+}
+@keyframes animate-path6 {
+  100% {
+    stroke-dashoffset: 50;
   }
 }
 
@@ -638,6 +654,7 @@ section {
     height: 100%;
     padding: 0;
   }
+
   .technical-bars .bar {
     padding: 20px;
   }
@@ -652,3 +669,144 @@ section {
   }
 }
 
+.main-text {
+  margin-top: 64px;
+}
+
+.main-text h2 {
+  margin-bottom: 50px;
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+}
+
+.main-text h2 span {
+  color: #b546c4;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(395px, auto));
+}
+.row {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.row img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #65216e);
+  position: absolute;
+  border-radius: 8px;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 40px;
+  transition: height 0.5s;
+}
+
+.layer h5 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.layer p {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.layer a {
+  text-decoration: none;
+}
+
+.row:hover img {
+  transform: scale(1.1);
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+.row:hover .layer {
+  height: 100%;
+}
+
+.contact-text h2 {
+  font-size: 60px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-text h2 span {
+  color: #b546c4;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+.contact-info {
+  width: 40%;
+}
+
+.contact-info h4 {
+  margin-top: 15px;
+  color: #ededed;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-info p {
+  color: rgb(177, 177, 177);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contact-list li {
+  list-style: none;
+  margin-bottom: 10px;
+  display: block;
+  width: 45%;
+  font-size: 20px;
+}
+
+.contact-list i {
+  display: inline-block;
+  color: #b546c4;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.contact-list li:hover,
+.contact-list i:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+
+.contact-icons i {
+  display: inline-block;
+
+  text-align: center;
+  width: 40px;
+}
