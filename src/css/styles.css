@@ -740,6 +740,19 @@ section {
   height: 100%;
 }
 
+@media(max-width: 500px){
+  .main-text {
+    margin-bottom: 30px;
+  }
+  .layer h5 {
+    font-size: 18px;
+  }
+  .layer p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
 .contact-container {
   display: flex;
   justify-content: space-evenly;
@@ -791,9 +804,6 @@ section {
 }
 
 @media (max-width: 500px) {
-  .main-text {
-    margin-bottom: 30px;
-  }
   .contact-container {
     flex-direction: column;
   }
