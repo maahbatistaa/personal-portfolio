@@ -11,7 +11,7 @@ var projects = [
     imgSrc: './src/img/project6.avif',
     projectLink: 'https://jordan-shoes-ashy.vercel.app',
     title: 'Front-end',
-    description: '',
+    description: 'Praticando html, css e js através do layout do Iuri Silda, da comunidade Codelândia',
   },
   {
     imgSrc: './src/img/project4.avif',
