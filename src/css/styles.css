@@ -160,7 +160,8 @@ body {
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px var(--cor-secundaria), 0 0 25px var(--cor-secundaria), 0 0 50px var(--cor-secundaria);
+  box-shadow: 0 0 5px var(--cor-secundaria), 0 0 25px var(--cor-secundaria),
+    0 0 50px var(--cor-secundaria);
 }
 
 .homeimg {
@@ -458,6 +459,9 @@ section {
 .progress-line.react-native span {
   width: 40%;
 }
+.progress-line.react span {
+  width: 30%;
+}
 .progress-line.node span {
   width: 30%;
 }
@@ -491,6 +495,9 @@ section {
 }
 .progress-line.react-native span::after {
   content: '40%';
+}
+.progress-line.react span::after {
+  content: '30%';
 }
 .progress-line.node span::after {
   content: '30%';
