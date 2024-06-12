@@ -8,45 +8,24 @@ var typed = new Typed('.text', {
 
 var projects = [
   {
-    imgSrc: './src/img/project6.avif',
-    projectLink: 'https://jordan-shoes-ashy.vercel.app',
-    title: 'Front-end',
-    description: 'Praticando html, css e js através do layout do Iuri Silva, da comunidade Codelândia',
-  },
-  {
-    imgSrc: './src/img/project4.avif',
-    projectLink: 'https://blog-codelandia-omega.vercel.app',
-    title: 'Front-end',
-    description:
-      'Landing Page de um blog de tecnologia. Utilizando flex para torna-lo responsivo.',
-  },
-  {
-    imgSrc: './src/img/project5.avif',
-    projectLink: 'https://maahbatistaa.github.io/ControleFinanceiro/',
-    title: 'Full Stack',
-    description:
-      'Controle Financeiro foi desenvolvido com HTML, CSS e JS, o intuito desse projeto é ter algo fácil e simples para controle de gastos. Você pode ter o controle de entrada e saida, além do saldo atual. Armazenamento local.',
-  },
-  {
     imgSrc: './src/img/project1.avif',
-    projectLink: 'https://flexblog-green.vercel.app',
-    title: 'Front-end',
+    projectLink: 'https://github.com/maahbatistaa/cadastro-de-pessoa',
+    title: 'Full Stack and UI Designer',
     description:
-      'FlexBlog foi o projeto final do curso CSS Flexbox. Obtive o conhecimento e a pratica do flexbox, utilizando diversas formas de alinhar os itens com o flexbox, além de torna-lo responsivo utilizando poucos media queries, pois o flexbox já adapta o layout automaticamente ao utilizar o flex-wrap.',
+      'Site para cadastrar pessoas físicas. Nele você pode fazer seu registro, logar e cadastrar pessoas fisicas, além de cadastrar mais de uma pessoas, você pode também deletar pessoas.',
   },
   {
     imgSrc: './src/img/project2.avif',
-    projectLink: 'https://bikcraft-flame.vercel.app',
-    title: 'Front-end & UI/UX Design',
-    description:
-      'Bikcraft projeto final do curso HTML e CSS. Além de ter feito todo o prototipo no curso de UI Design, eu pude colocar em prática tudo que aprendi ao longo do curso, o que inclui: Posicionamento; Tags semânticas; Responsividade; Boas práticas no CSS.',
+    projectLink: 'https://maahbatistaa.github.io/animais-fantasticos/',
+    title: 'Front-end',
+    description: 'Projeto realizado no curso de JavaScript da Origamid',
   },
   {
     imgSrc: './src/img/project3.avif',
-    projectLink: 'https://wildbeast-pink.vercel.app',
+    projectLink: 'https://agencia-xyz-ebon.vercel.app',
     title: 'Front-end',
     description:
-      'Wildbeast projeto final do curso CSS Grid. Utilizando o Grid facilita a criação de layouts flexíveis e responsivos, reduzindo a utilização de floats que era usado para fazer o mesmo posicionamento.',
+      'Projeto realizado para praticar CSS Grid e CSS Flexbox',
   },
 ];
 
