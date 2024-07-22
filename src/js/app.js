@@ -16,7 +16,8 @@ var projects = [
   },
   {
     imgSrc: './src/img/project2.avif',
-    projectLink: 'https://maahbatistaa.github.io/animais-fantasticos/',
+    projectLink:
+      'https://maahbatistaa.github.io/projects-origamid/animais-fantasticos/',
     title: 'Front-end',
     description: 'Projeto realizado no curso de JavaScript da Origamid',
   },
@@ -24,8 +25,19 @@ var projects = [
     imgSrc: './src/img/project3.avif',
     projectLink: 'https://agencia-xyz-ebon.vercel.app',
     title: 'Front-end',
-    description:
-      'Projeto realizado para praticar CSS Grid e CSS Flexbox',
+    description: 'Projeto realizado para praticar CSS Grid e CSS Flexbox',
+  },
+  {
+    imgSrc: './src/img/wildbeast.png',
+    projectLink: 'https://maahbatistaa.github.io/projects-origamid/wildbeast/',
+    title: 'Front-end',
+    description: 'Projeto realizado no curso de CSS Grid da Origamid',
+  },
+  {
+    imgSrc: './src/img/bikcraft.png',
+    projectLink: 'https://maahbatistaa.github.io/projects-origamid/bikcraft/',
+    title: 'Front-end',
+    description: 'Projeto realizado no curso de HTML e CSS para Iniciantes',
   },
 ];
 
