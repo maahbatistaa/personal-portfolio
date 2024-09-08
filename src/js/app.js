@@ -15,14 +15,14 @@ var projects = [
       'Site para cadastrar pessoas físicas. Nele você pode fazer seu registro, logar e cadastrar pessoas fisicas, além de cadastrar mais de uma pessoas, você pode também deletar pessoas.',
   },
   {
-    imgSrc: './src/img/project2.avif',
+    imgSrc: './src/img/animais-fantasticos.png',
     projectLink:
       'https://maahbatistaa.github.io/projects-origamid/animais-fantasticos/',
     title: 'Front-end',
     description: 'Projeto realizado no curso de JavaScript da Origamid',
   },
   {
-    imgSrc: './src/img/project3.avif',
+    imgSrc: './src/img/agencia-xyz.png',
     projectLink: 'https://agencia-xyz-ebon.vercel.app',
     title: 'Front-end',
     description: 'Projeto realizado para praticar CSS Grid e CSS Flexbox',
@@ -38,6 +38,12 @@ var projects = [
     projectLink: 'https://maahbatistaa.github.io/projects-origamid/bikcraft/',
     title: 'Front-end',
     description: 'Projeto realizado no curso de HTML e CSS para Iniciantes',
+  },
+  {
+    imgSrc: './src/img/flexblog.png',
+    projectLink: 'https://maahbatistaa.github.io/projects-origamid/flexblog/',
+    title: 'Front-end',
+    description: 'Projeto realizado no curso de Flexbox da Origamid',
   },
 ];
 
