@@ -684,6 +684,7 @@ section {
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(395px, auto));
+  gap: 15px;
 }
 
 .row {

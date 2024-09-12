@@ -8,7 +8,7 @@ var typed = new Typed('.text', {
 
 var projects = [
   {
-    imgSrc: './src/img/project1.avif',
+    imgSrc: './src/img/registro-rapido.png',
     projectLink: 'https://github.com/maahbatistaa/cadastro-de-pessoa',
     title: 'Full Stack and UI Designer',
     description:
