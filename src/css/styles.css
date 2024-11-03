@@ -376,7 +376,7 @@ section {
 }
 
 .container1 {
-  width: 600px;
+  width: 550px;
   padding: 20px 90px;
   margin-bottom: 50px;
 }
@@ -683,7 +683,7 @@ section {
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(395px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
   gap: 15px;
 }
 
